@@ -1,0 +1,65 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+#header{
+    width: 900px;
+    margin: 10px auto;
+    
+}
+#header #search{
+    padding: 10px;
+    height: 40px;
+    width: 800px;
+    margin: 10px auto;
+    border:  1px solid black;
+    background-color: rgb(196, 194, 196);
+}
+.button{
+
+    position: relative;
+    background-color: crimson;
+    color: white;
+    width: 90px;
+    top: -50px;
+    right: -800px;
+    height: 40px;
+}
+.fa-microphone{
+ color: crimson;
+position: relative;
+right: 30px;
+font-size: 25px;
+cursor: pointer;
+}
+#profileBlock article{
+    box-shadow: 1px 1px 3px 3px #eee;
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    background-color: white;
+}
+#profileBlock article .leftblock{
+flex-basis: 25%;
+padding: 10px;
+border-right: 1px solid grey;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+#profileBlock article .rightblock{
+    flex-basis: 75%;
+    padding: 10px;
+}
+.leftblock img{
+    width: 180px;
+    height: 180px;
+    border-radius: 99%;
+   
+}
